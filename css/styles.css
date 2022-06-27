@@ -139,7 +139,7 @@ p {
     position: relative;
 }
 
-.header-link::after {
+.header-link.current::after {
     content: "";
     position: absolute;
     left: 0;
@@ -148,7 +148,9 @@ p {
     width: 100%;
     height: 4px;
     background-color: var(--accent-color);
+   
 }
+
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-color);
